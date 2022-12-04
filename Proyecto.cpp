@@ -1,9 +1,9 @@
 ﻿/*---------------------------------------------------------*/
 /* ----------------  Proyecto Computación Gráfica   -----------*/
 /*-----------------    2023-1   ---------------------------*/
-/*-------------  Martinez Zambrano Rodrigo No. Cuenta: 316204707   ---------------*/
-/*-------------                   ---------------*/
-/*-------------                   ---------------*/
+/*-------------  Martinez Zambrano Rodrigo ___ 316204707   ---------------*/
+/*-------------  Perez Palumbo Fernando Alexis ___ 314185970 ---------------*/
+/*-------------  Rodriguez Lopez Araiza Jose Eduardo ___ 315226742 --------------*/
 
 //Se incluyen las librerias
 #include <Windows.h>
@@ -272,9 +272,8 @@ int main()
 
 	// load models
 	// -----------
-	//Model se usa para objetos estaticos, extension .obj recomendada
+		//Model se usa para objetos estaticos, extension .obj recomendada
 	Model base("modelos/build/build.obj");
-	//Model tree("modelos/Tree/Arbol.obj");
 	Model tib("modelos/Shark_/sharkBody-texture.obj");
 	//Model shark("modelos/Shark/sharkBody-texture.obj");
 	Model sharkTail("modelos/Shark_/sharkTail-texture.obj");
@@ -290,12 +289,6 @@ int main()
 	//Model casaVieja("resources/objects/casa/OldHouse.obj");
 	////Model cubo("resources/objects/cubo/cube02.obj");
 	//Model casaDoll("resources/objects/casa/DollHouse.obj");
-
-	//ModelAnim animacionPersonaje("resources/objects/Personaje1/PersonajeBrazo.dae"); //ModelAnim para modelos animados
-	//animacionPersonaje.initShaders(animShader.ID);
-
-	/*ModelAnim ninja("resources/objects/ZombieWalk/ZombieWalk.dae");
-	ninja.initShaders(animShader.ID);*/
 
 	//Inicialización de KeyFrames
 	for (int i = 0; i < MAX_FRAMES; i++)
@@ -435,6 +428,7 @@ int main()
 		//model = glm::rotate(model, glm::radians(0.0f), glm::vec3(0.0f, 1.0f, 0.0));
 		//staticShader.setMat4("model", model);
 		//shark.Draw(staticShader);
+		
 		////COLA TIBURON
 		//model = glm::translate(tmp, glm::vec3(0.0f,1.5f, -30.0f));
 		////model = glm::rotate(model, glm::radians(0.0f), glm::vec3(0.0f, 1.0f, 0.0));
